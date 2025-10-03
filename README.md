@@ -85,24 +85,24 @@
 ---
 
 ## 📂 프로젝트 구조
-📂 Umbrella_Rental_System/
-├── 📂 build/               # 빌드된 결과물 (HTML, CSS, JS, 이미지 등)
-│   ├── static/            # 정적 파일
-│   └── 기타 빌드 파일들
-├── 📂 public/             # 퍼블릭 리소스
-│   └── 이미지, HTML, 아이콘, 설정 파일 등
-├── 📂 src/                # 소스 코드
-│   ├── components/       # React 컴포넌트
-│   ├── images/           # 프로젝트 이미지
-│   ├── pages/            # 페이지 컴포넌트
-│   ├── CSS 파일들
-│   ├── JS 파일들
-│   └── 테스트 및 설정 파일
-├── .env                 # 환경 변수 파일
-├── package-lock.json    # 패키지 버전 잠금 파일
-├── package.json         # 프로젝트 메타정보 및 의존성
-├── README.md            # 프로젝트 설명
-└── server.js            # 서버 실행 파일
+
+Umbrella_Rental_System/
+├── 📂 build/                # 빌드된 결과물 (HTML, CSS, JS, 이미지 등)
+├── 📂 static/               # 정적 파일
+├── 📂 public/               # 퍼블릭 리소스 (이미지, HTML, 아이콘, 설정 파일 등)
+├── 📂 src/                  # 소스 코드
+│   ├── 📂 components/       # React 컴포넌트
+│   ├── 📂 images/           # 프로젝트 이미지
+│   ├── 📂 pages/            # 페이지 컴포넌트
+│   ├── 📂 css/              # CSS 파일들
+│   ├── 📂 js/               # JS 파일들
+│   └── 📂 tests/            # 테스트 및 설정 파일
+├── .env                     # 환경 변수 파일
+├── package-lock.json        # 패키지 버전 잠금 파일
+├── package.json             # 프로젝트 메타정보 및 의존성
+├── README.md                # 프로젝트 설명
+└── server.js                # 서버 실행 파일
+
 
 ---
 
