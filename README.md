@@ -27,7 +27,7 @@
 ---
 
 ## 📅 개발 기간
-- 2024/09/01 ~ 개발 중
+- 2024/09/01 ~ 2025/06/18
 
 ---
 
@@ -44,23 +44,21 @@
 **양한별**  
 - 주분야: Backend  
 - 부분야: Frontend  
-  - 객체인식 카메라 모듈 연동  
-  - 웹/앱 및 Flask 서버 연동  
-  - 젯슨 나노 설정  
-
+  - 결제 시스템 개발
+  - 전반적인 Backend 개발
+  - 웹 개발 전반적으로 총괄
+    
 **최성원**  
 - 주분야: Frontend  
 - 부분야: IoT  
-  - Flask 서버(app.py) 개발  
-  - DB 구현  
-  - 웹과 YOLOv8 모델 연동  
+  - UI 개선
+  - Frontend 개발
 
 **조윤서**  
 - 주분야: H/W, IoT  
 - 부분야: 전자 회로  
-  - 객체인식 카메라 모듈 연동 보조  
-  - 웹/앱 및 Flask 서버 연동 보조  
-  - 젯슨 나노 설정 보조  
+  - H/W 설정 및 개발
+  - 회로 개발
 
 **조윤진**  
 - 주분야: Frontend  
@@ -87,17 +85,24 @@
 ---
 
 ## 📂 프로젝트 구조
-\`\`\`
-📂 flask_server/
-├── 📂 static/             # 정적 파일 (CSS, JS, 이미지)
-├── 📂 templates/          # HTML 파일
-├── 📂 yolov8/             # YOLOv8 모델 관련 파일 (Git에 포함되지 않음)
-├── 📂 venv/               # 가상 환경 (Git에 포함되지 않음)
-├── 📂 app.py              # Flask 웹 서버
-├── 📂 best.pt             # 학습된 YOLOv8 모델 가중치 (Git에 포함되지 않음)
-├── 📂 requirements.txt    # 필요한 패키지 목록
-└── 📂 README.md           # 프로젝트 설명
-\`\`\`
+📂 Umbrella_Rental_System/
+├── 📂 build/               # 빌드된 결과물 (HTML, CSS, JS, 이미지 등)
+│   ├── static/            # 정적 파일
+│   └── 기타 빌드 파일들
+├── 📂 public/             # 퍼블릭 리소스
+│   └── 이미지, HTML, 아이콘, 설정 파일 등
+├── 📂 src/                # 소스 코드
+│   ├── components/       # React 컴포넌트
+│   ├── images/           # 프로젝트 이미지
+│   ├── pages/            # 페이지 컴포넌트
+│   ├── CSS 파일들
+│   ├── JS 파일들
+│   └── 테스트 및 설정 파일
+├── .env                 # 환경 변수 파일
+├── package-lock.json    # 패키지 버전 잠금 파일
+├── package.json         # 프로젝트 메타정보 및 의존성
+├── README.md            # 프로젝트 설명
+└── server.js            # 서버 실행 파일
 
 ---
 
