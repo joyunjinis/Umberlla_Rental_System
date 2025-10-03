@@ -86,7 +86,7 @@
 
 ## 📂 프로젝트 구조
 ```
-Umbrella_Rental_System/
+📂 Umbrella_Rental_System/
 ├── 📂 build/                # 빌드된 결과물 (HTML, CSS, JS, 이미지 등)
 ├── 📂 static/               # 정적 파일
 ├── 📂 public/               # 퍼블릭 리소스 (이미지, HTML, 아이콘, 설정 파일 등)
